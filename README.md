@@ -5,11 +5,11 @@ Here I have made use of unitys' c# compiler to execute web request using UnityWe
 ##Hints
 First a get request is perfromed on products url i.e. http://18.10.124.57:6000/api/products/ then following data is extracted:
 
-![Json data of the products]()
+![Json data of the products](imagesJson.PNG)
 
 From the data, url of specific product is again hit with a get request and following data of that product is taken:
 
-![Json data of images]()
+![Json data of images](productsJson.PNG)
 
 -Then as per the category of that instance the images are stored in a persistent data path of the user company name as
 defined in player settings. For default, the images are stored in "C:\Users\USERNAME\AppData\LocalLow\DefaultCompany\PROJECTNAME\Images\".
